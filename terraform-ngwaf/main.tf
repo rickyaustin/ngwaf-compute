@@ -21,12 +21,12 @@ variable "FASTLY_API_KEY" {
 variable "USER_VCL_SERVICE_DOMAIN_NAME" {
  type = string
  description = "Frontend domain for your service. Try 'YOURNAME.global.ssl.fastly.net' to get up and running quickly."
- default = "<YOUR-CUSTOM-FASTLY-DOMAIN>.global.ssl.fastly.net"
+ #default = "<YOUR-CUSTOM-FASTLY-DOMAIN>.global.ssl.fastly.net"
 }
 variable "USER_VCL_SERVICE_BACKEND_HOSTNAME" {
  type          = string
  description   = "hostname used for backend."
- default       = "<YOUR COMPUTE@EDGE SERVICE DOMAIN>" # Generated after thee creation of a compute service via Fastly CLI
+ #default       = "<YOUR COMPUTE@EDGE SERVICE DOMAIN>" # Generated after thee creation of a compute service via Fastly CLI
 }
 # Controls the percentage of traffic sent to NGWAF
 variable "Edge_Security_dictionary" {
