@@ -6,11 +6,11 @@ variable "NGWAF_EMAIL" {
     type = string
 }
 
-variable "NGWAF_CORP" {
+variable "sigsci_corp" {
     type = string
 }
 
-variable "NGWAF_SITE" {
+variable "sigsci_site" {
     type = string
 }
 
