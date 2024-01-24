@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "sigsci" {
-  corp = var.NGWAF_CORP
+  corp = var.sigsci_corp
   email = var.NGWAF_EMAIL
   auth_token = var.NGWAF_TOKEN
 }
